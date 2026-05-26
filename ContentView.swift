@@ -44,6 +44,7 @@ struct ContentView: View {
                 .onDelete(perform: deleteOrder)
             }
             .listStyle(.insetGrouped)
+            
             .navigationTitle("Tims Coffee Run")                        .toolbar
             {
                 

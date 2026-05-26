@@ -6,9 +6,7 @@
 //
 
 import SwiftUI
-
 import Foundation
-
 
 struct AddOrderView: View {
     
@@ -42,6 +40,7 @@ struct AddOrderView: View {
                 TextField("Notes", text: $notes)
             }
             
+            // Saves the new order when the button is tapped
             Button("Save Order") {
                 let newOrder = Order(
                     name: name,
@@ -50,6 +49,7 @@ struct AddOrderView: View {
                     notes: notes
                 )
                 
+                // Sends the new order to OrderStore
                 store.addOrder(order: newOrder)
             }
         }
