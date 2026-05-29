@@ -1,104 +1,48 @@
-# Elite Contractor AI
+# Matt_iOS_Assignment2
 
-## Overview
+📱 Project Overview
 
-Elite Contractor AI is a contractor management platform designed to help small contractors and service businesses manage customers, jobs, estimates, scheduling, expenses, and project information in one place.
+This is a simple iOS coffee ordering application built using SwiftUI. The app allows users to browse coffee menu items, select quantities, add items to a cart, view their order summary, and clear their order if changes are needed.
 
-The project combines over 20 years of real-world construction experience with modern mobile application development. The goal is to create a practical business tool that solves everyday problems faced by contractors while improving organization, communication, and productivity.
+The goal of this project is to demonstrate core SwiftUI concepts learned in class including views, navigation, state management, data models, and basic app architecture.
 
-## Problem Statement
+✨ Features
 
-Many small contractors still rely on notebooks, spreadsheets, text messages, phone calls, and paper estimates to manage their businesses.
+* Browse coffee menu items
+* View coffee images and descriptions
+* Filter coffee by category (Hot, Cold, All)
+* Select coffee quantity
+* Add items to cart
+* View order summary
+* Update or clear order before checkout
+* Calculate total price
+* Clean and simple SwiftUI interface
 
-This often leads to:
-
-* Lost customer information
-* Missed appointments
-* Disorganized job tracking
-* Inaccurate estimates
-* Poor communication
-* Difficulty managing expenses
-
-Elite Contractor AI aims to solve these problems through a centralized mobile platform.
-
-## Proposed Solution
-
-Elite Contractor AI will provide:
-
-* Customer Management
-* Job Tracking
-* Estimate Generation
-* Scheduling and Calendar Tools
-* Expense Tracking
-* Project Notes
-* Business Dashboard
-
-Future versions will include AI-powered features to assist contractors with business operations and customer communication.
-
-## Features
-
-### Phase 1
-
-* Customer Database
-* Job Management
-* Estimate Builder
-* Scheduling System
-* Expense Tracking
-* Dashboard Overview
-
-### Phase 2
-
-* AI Estimate Assistant
-* AI Email Generator
-* AI Text Message Generator
-* Business Insights
-* Productivity Recommendations
-
-## Tech Stack
+🛠 Technologies Used
 
 * Swift
 * SwiftUI
 * Xcode
-* Git
-* GitHub
-* JSON
-* AI Integration (Future Development)
+* JSON Data
+* Git & GitHub
 
-## Target Users
+📂 Project Structure
 
-* General Contractors
-* Landscapers
-* Concrete Contractors
-* Painters
-* Renovation Companies
-* Small Service Businesses
+* Models → Coffee, CartItem
+* Views → ContentView, CoffeeCardView, CoffeeCartView
+* Managers → CartManager
+* Data → coffeeData.json
+* Assets → Coffee images
 
-## Development Roadmap
+🚀 How to Run
 
-### Version 1
+1. Clone the repository
+2. Open the project in Xcode
+3. Run in iOS Simulator
+4. Browse coffee items and place an order
 
-Core contractor management system with customer, job, estimate, and scheduling functionality.
-
-### Version 2
-
-Advanced reporting, analytics, and AI-powered business tools.
-
-### Version 3
-
-Expanded automation, customer engagement features, and premium business intelligence tools.
-
-## What Makes This Project Unique
-
-Unlike many contractor management applications, Elite Contractor AI is being designed by someone with extensive real-world construction experience.
-
-The project is based on actual industry challenges and focuses on creating practical solutions for contractors who need simple, effective tools to run their businesses.
-
-## Author
+👨‍💻 Author
 
 Matthew Comer
-
-Capstone Project
-
 triOS College
-
 2026
